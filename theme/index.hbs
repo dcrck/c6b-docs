@@ -319,6 +319,7 @@
         <script src="{{ path_to_root }}book.js"></script>
 
         <!-- Custom JS scripts -->
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         {{#each additional_js}}
         <script src="{{ ../path_to_root }}{{this}}"></script>
         {{/each}}
@@ -342,5 +343,6 @@
         {{/if}}
 
     </div>
+    <div id="netlify-id" data-netlify-identity-menu style="height: 0; display: none;"></div>
     </body>
 </html>

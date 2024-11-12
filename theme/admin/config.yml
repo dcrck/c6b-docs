@@ -1,0 +1,59 @@
+##
+## Uncomment when doing local development on Netlify CMS
+## Run `npx netlify-cms-proxy-server` to start working locally
+## In another terminal, start the app with `npm start`
+## See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+##
+
+backend:
+  name: git-gateway
+  branch: main
+
+# local_backend: true
+
+##
+##
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "applications"
+    label: "Applications section"
+    folder: "src/applications"
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "carbon-capture"
+    label: "Carbon Capture section"
+    folder: "src/carbon-capture"
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "intro"
+    label: "Introduction section"
+    folder: "src/intro"
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    format: toml-frontmatter
+    editor:
+      preview: false
+    files:
+      - name: "summary"
+        label: "Overview"
+        file: "src/README.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "chapters"
+        label: "Chapters"
+        file: "src/SUMMARY.md"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+                
