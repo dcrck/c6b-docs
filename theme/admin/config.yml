@@ -24,7 +24,7 @@ collections:
     folder: "src/applications"
     create: true
     slug: "{{slug}}"
-    summary: "{{body | truncate(20, '...')}}"
+    summary: "{{body | truncate(40, '...')}}"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -34,7 +34,7 @@ collections:
     folder: "src/carbon-capture"
     create: true
     slug: "{{slug}}"
-    summary: "{{body | truncate(20, '...')}}"
+    summary: "{{body | truncate(40, '...')}}"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -44,7 +44,7 @@ collections:
     folder: "src/intro"
     create: true
     slug: "{{slug}}"
-    summary: "{{body | truncate(20, '...')}}"
+    summary: "{{body | truncate(40, '...')}}"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
