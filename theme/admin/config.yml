@@ -24,6 +24,7 @@ collections:
     folder: "src/applications"
     create: true
     slug: "{{slug}}"
+    summary: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "carbon-capture"
@@ -31,6 +32,7 @@ collections:
     folder: "src/carbon-capture"
     create: true
     slug: "{{slug}}"
+    summary: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "intro"
@@ -38,6 +40,7 @@ collections:
     folder: "src/intro"
     create: true
     slug: "{{slug}}"
+    summary: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
