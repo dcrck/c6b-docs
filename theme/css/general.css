@@ -32,6 +32,7 @@ body {
   font-size: 0.8em;
   font-family: var(--mono-font);
   height: var(--header-height);
+  box-sizing: border-box;
 }
 
 .page header * {

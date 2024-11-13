@@ -8,7 +8,7 @@
     --page-padding: 15px;
     --content-max-width: 750px;
     --menu-bar-height: 40px;
-    --header-height: 40px;
+    --header-height: 50px;
     --mono-font: "Jetbrains Mono", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace;
     --code-font-size: 0.875em /* please adjust the ace font size accordingly in editor.js */
 }
@@ -16,8 +16,8 @@
 /* Themes */
 
 .ayu {
-    --bg: hsl(210, 25%, 8%);
-    --fg: #c5c5c5;
+    --bg: hsl(204, 20%, 5%);
+    --fg: #fafaf9;
 
     --sidebar-bg: #14191f;
     --sidebar-fg: #c8c9db;
@@ -43,13 +43,13 @@
 
     --warning-border: #ff8e00;
 
-    --table-border-color: hsl(210, 25%, 13%);
-    --table-header-bg: hsl(210, 25%, 28%);
-    --table-alternate-bg: hsl(210, 25%, 11%);
+    --table-border-color: hsl(204, 20%, 13%);
+    --table-header-bg: hsl(204, 20%, 28%);
+    --table-alternate-bg: hsl(204, 20%, 11%);
 
     --searchbar-border-color: #848484;
-    --searchbar-bg: #424242;
-    --searchbar-fg: #fff;
+    --searchbar-bg: hsl(204, 20%, 10%);
+    --searchbar-fg: #fafaf9;
     --searchbar-shadow-color: #d4c89f;
     --searchresults-header-fg: #666;
     --searchresults-border-color: #888;
