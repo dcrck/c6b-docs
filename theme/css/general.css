@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: "Open Sans", sans-serif;
+    font-family: Supreme, sans-serif;
     color: var(--fg);
     background-color: var(--bg);
     text-size-adjust: none;
@@ -18,6 +18,140 @@ body {
     margin: 0;
     font-size: 1.6rem;
     overflow-x: hidden;
+}
+
+.page header {
+  position: sticky;
+  z-index: 101;
+  background-color: var(--bg);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 0.8em;
+  font-family: var(--mono-font);
+  height: var(--header-height);
+}
+
+.page header * {
+    box-sizing: border-box;
+}
+
+.page header a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.page header a.button {
+  display: inline-block;
+  color: var(--bg);
+  background-color: var(--fg);
+  padding: 0.75em 1.5em;
+  border-radius: 0.125em;
+  font-family: var(--mono-font);
+  font-weight: 500;
+}
+
+.page header > a:first-child {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.page header > a:first-child > svg {
+  height: 1em;
+  padding-right: 0.5em;
+}
+
+.page header nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+}
+
+nav label {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+
+nav a.button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  text-transform: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul > li:last-child {
+  display: none;
+}
+
+.page header nav > input:checked ~ .modal-overlay {
+    display: none;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (max-width: 512px) {
+  header nav label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .page header nav > ul {
+    display: none;
+  }
+
+  .page header nav > input:checked + ul {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    padding: 2.5rem 1rem 1rem;
+    position: fixed;
+    background: var(--bg);
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 103;
+    border-left: 1px solid var(--table-border-color);
+  }
+
+  .page header nav > input:checked ~ .modal-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 102;
+  }
+
+  .page header nav > input:checked + ul a.button {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul > li:last-child {
+    display: inline;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
 }
 
 code {
@@ -74,13 +208,13 @@ h6:target::before {
 */
 :target {
     /* Safari does not support logical properties */
-    scroll-margin-top: calc(var(--menu-bar-height) + 0.5em);
+    scroll-margin-top: calc(var(--menu-bar-height) + var(--header-height) + 0.5em);
 }
 
 .page {
     outline: 0;
     padding: 0 var(--page-padding);
-    margin-block-start: calc(0px - var(--menu-bar-height)); /* Compensate for the #menu-bar-hover-placeholder */
+    margin-block-start: calc(0px - var(--menu-bar-height) - var(--header-height)); /* Compensate for the #menu-bar-hover-placeholder */
 }
 .page-wrapper {
     box-sizing: border-box;

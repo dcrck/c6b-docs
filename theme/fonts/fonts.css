@@ -1,100 +1,287 @@
-/* Open Sans is licensed under the Apache License, Version 2.0. See http://www.apache.org/licenses/LICENSE-2.0 */
-/* Source Code Pro is under the Open Font License. See https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL */
+/**
+* @license
+*
+* Font Family: Supreme
+* Designed by: Jérémie Hornus, Ilya Naumoff
+* URL: https://www.fontshare.com/fonts/supreme
+* © 2024 Indian Type Foundry
+*
+* Supreme Thin 
+* Supreme ThinItalic 
+* Supreme Extralight 
+* Supreme ExtralightItalic 
+* Supreme Light 
+* Supreme LightItalic 
+* Supreme Regular 
+* Supreme Italic 
+* Supreme Medium 
+* Supreme MediumItalic 
+* Supreme Bold 
+* Supreme BoldItalic 
+* Supreme Extrabold 
+* Supreme ExtraboldItalic 
+* Supreme Variable (Variable font)
+* Supreme VariableItalic (Variable font)
 
-/* open-sans-300 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
+*
+*/
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Supreme';
+  src: url('Supreme-Thin.woff2') format('woff2'),
+       url('Supreme-Thin.woff') format('woff'),
+       url('Supreme-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
   font-style: normal;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-ThinItalic.woff2') format('woff2'),
+       url('Supreme-ThinItalic.woff') format('woff'),
+       url('Supreme-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-Extralight.woff2') format('woff2'),
+       url('Supreme-Extralight.woff') format('woff'),
+       url('Supreme-Extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-ExtralightItalic.woff2') format('woff2'),
+       url('Supreme-ExtralightItalic.woff') format('woff'),
+       url('Supreme-ExtralightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-Light.woff2') format('woff2'),
+       url('Supreme-Light.woff') format('woff'),
+       url('Supreme-Light.ttf') format('truetype');
   font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'),
-       url('open-sans-v17-all-charsets-300.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
 }
-
-/* open-sans-300italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
+  font-family: 'Supreme';
+  src: url('Supreme-LightItalic.woff2') format('woff2'),
+       url('Supreme-LightItalic.woff') format('woff'),
+       url('Supreme-LightItalic.ttf') format('truetype');
   font-weight: 300;
-  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
-       url('open-sans-v17-all-charsets-300italic.woff2') format('woff2');
+  font-display: swap;
+  font-style: italic;
 }
-
-/* open-sans-regular - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
+  font-family: 'Supreme';
+  src: url('Supreme-Regular.woff2') format('woff2'),
+       url('Supreme-Regular.woff') format('woff'),
+       url('Supreme-Regular.ttf') format('truetype');
   font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('open-sans-v17-all-charsets-regular.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
 }
-
-/* open-sans-italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
+  font-family: 'Supreme';
+  src: url('Supreme-Italic.woff2') format('woff2'),
+       url('Supreme-Italic.woff') format('woff'),
+       url('Supreme-Italic.ttf') format('truetype');
   font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'),
-       url('open-sans-v17-all-charsets-italic.woff2') format('woff2');
-}
-
-/* open-sans-600 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-       url('open-sans-v17-all-charsets-600.woff2') format('woff2');
-}
-
-/* open-sans-600italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
+  font-display: swap;
   font-style: italic;
-  font-weight: 600;
-  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
-       url('open-sans-v17-all-charsets-600italic.woff2') format('woff2');
 }
-
-/* open-sans-700 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'),
-       url('open-sans-v17-all-charsets-700.woff2') format('woff2');
-}
-
-/* open-sans-700italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
-       url('open-sans-v17-all-charsets-700italic.woff2') format('woff2');
-}
-
-/* open-sans-800 - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
-       url('open-sans-v17-all-charsets-800.woff2') format('woff2');
-}
-
-/* open-sans-800italic - latin_vietnamese_latin-ext_greek-ext_greek_cyrillic-ext_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 800;
-  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
-       url('open-sans-v17-all-charsets-800italic.woff2') format('woff2');
-}
-
-/* source-code-pro-500 - latin_vietnamese_latin-ext_greek_cyrillic-ext_cyrillic */
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
+  font-family: 'Supreme';
+  src: url('Supreme-Medium.woff2') format('woff2'),
+       url('Supreme-Medium.woff') format('woff'),
+       url('Supreme-Medium.ttf') format('truetype');
   font-weight: 500;
-  src: url('source-code-pro-v11-all-charsets-500.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-MediumItalic.woff2') format('woff2'),
+       url('Supreme-MediumItalic.woff') format('woff'),
+       url('Supreme-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-Bold.woff2') format('woff2'),
+       url('Supreme-Bold.woff') format('woff'),
+       url('Supreme-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-BoldItalic.woff2') format('woff2'),
+       url('Supreme-BoldItalic.woff') format('woff'),
+       url('Supreme-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-Extrabold.woff2') format('woff2'),
+       url('Supreme-Extrabold.woff') format('woff'),
+       url('Supreme-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-ExtraboldItalic.woff2') format('woff2'),
+       url('Supreme-ExtraboldItalic.woff') format('woff'),
+       url('Supreme-ExtraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 800.0;
+*
+* available axes:
+'wght' (range from 100.0 to 800.0
+*/
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-Variable.woff2') format('woff2'),
+       url('Supreme-Variable.woff') format('woff'),
+       url('Supreme-Variable.ttf') format('truetype');
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 800.0;
+*
+* available axes:
+'wght' (range from 100.0 to 800.0
+*/
+@font-face {
+  font-family: 'Supreme';
+  src: url('Supreme-VariableItalic.woff2') format('woff2'),
+       url('Supreme-VariableItalic.woff') format('woff'),
+       url('Supreme-VariableItalic.ttf') format('truetype');
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* JetBrains Mono*/
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-ThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
 }

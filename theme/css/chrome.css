@@ -40,7 +40,7 @@ a > .hljs {
     border-block-end-style: solid;
 }
 #menu-bar.sticky,
-.js #menu-bar-hover-placeholder:hover + #menu-bar,
+.js #menu-bar-hover-placeholder:hover + div > #menu-bar,
 .js #menu-bar:hover,
 .js.sidebar-visible #menu-bar {
     position: -webkit-sticky;
@@ -51,7 +51,7 @@ a > .hljs {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    height: var(--menu-bar-height);
+    height: calc(var(--menu-bar-height) + var(--header-height));
 }
 #menu-bar.bordered {
     border-block-end-color: var(--table-border-color);

@@ -3,4 +3,12 @@ authors = ["Derek"]
 language = "en"
 multilingual = false
 src = "src"
-title = "C6B Resources"
+title = ""
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+
+[output.html.font]
+enable = true
+woff = true
