@@ -57,7 +57,7 @@ collections:
     files:
       - name: "summary"
         label: "Overview"
-        file: "src/README.md"
+        file: "src/docs/overview.md"
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "chapters"
