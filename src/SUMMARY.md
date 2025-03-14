@@ -1,6 +1,6 @@
 # Summary
 
-[Overview](./docs/README.md)
+[Overview](./README.md)
 
 # Introduction to Biochar
 
