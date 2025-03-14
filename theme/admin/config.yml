@@ -21,7 +21,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "applications"
     label: "Applications section"
-    folder: "src/applications"
+    folder: "src/docs/applications"
     create: true
     slug: "{{slug}}"
     summary: "{{body | truncate(40, '...')}}"
@@ -31,7 +31,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "carbon-capture"
     label: "Carbon Capture section"
-    folder: "src/carbon-capture"
+    folder: "src/docs/carbon-capture"
     create: true
     slug: "{{slug}}"
     summary: "{{body | truncate(40, '...')}}"
@@ -41,7 +41,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "intro"
     label: "Introduction section"
-    folder: "src/intro"
+    folder: "src/docs/intro"
     create: true
     slug: "{{slug}}"
     summary: "{{body | truncate(40, '...')}}"

@@ -4,20 +4,20 @@
 
 # Introduction to Biochar
 
-  - [What is Biochar?](./intro/about-biochar.md)
-  - [All about Pyrolysis](./intro/pyrolysis.md)
-  - [Properties of Biochar](./intro/biochar-properties.md)
-  - [Biochar in the Circular Economy](./intro/circular-economy.md)
+  - [What is Biochar?](./docs/intro/about-biochar.md)
+  - [All about Pyrolysis](./docs/intro/pyrolysis.md)
+  - [Properties of Biochar](./docs/intro/biochar-properties.md)
+  - [Biochar in the Circular Economy](./docs/intro/circular-economy.md)
 
 # Applications of Biochar
 
-  - [Biochar throughout History](./applications/history.md)
-  - [Biochar in Agriculture](./applications/agriculture.md)
-  - [Biochar in Materials Production](./applications/materials.md)
-  - [Other Uses for Biochar](./applications/other.md)
+  - [Biochar throughout History](./docs/applications/history.md)
+  - [Biochar in Agriculture](./docs/applications/agriculture.md)
+  - [Biochar in Materials Production](./docs/applications/materials.md)
+  - [Other Uses for Biochar](./docs/applications/other.md)
 
 # Carbon Capture with Biochar
 
-  - [Biochar as a Carbon Capture Solution](./carbon-capture/with-biochar.md)
-  - [Ensuring Biochar's Permanence](./carbon-capture/permanence.md)
-  - [Advantages of Biochar Credits](./carbon-capture/credits.md)
+  - [Biochar as a Carbon Capture Solution](./docs/carbon-capture/with-biochar.md)
+  - [Ensuring Biochar's Permanence](./docs/carbon-capture/permanence.md)
+  - [Advantages of Biochar Credits](./docs/carbon-capture/credits.md)
